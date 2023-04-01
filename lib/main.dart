@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:yecommerce/const.dart';
 import 'package:yecommerce/routes.dart';
 
 import 'primary_screen/splash_screen/splash_page.dart';
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
+        appBarTheme: AppBarTheme(backgroundColor: kprimarycolor,),
         primarySwatch: Colors.blue,
       ),
      // home: SplashScreen(),
